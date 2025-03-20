@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+header {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 60px;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #FFF;
+    color: #000
+}
+
+.welcome {
+    padding: 20px;
+    background-color: #5555FF;
+    text-align: center;
+    color: #FFF
+}
+
+.services {
+    padding: 30px;
+    background-color: #CCCCFF;
+    color: #5555FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.welcome h1 {
+    color: #CCCCFF;
+}
+
+.services h2 {
+    color: #7777FF;
+}
+
+.infoService {
+    overflow: auto;
+    margin-bottom: 30px;
+    border-top: dashed 3px #5555FF;
+}
+
+.infoService img {
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #BBB;
+}
+
+.image {
+    width: 600px;
+    border: 2px solid #000;
+}
